@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    color: #D46A6A;
+}
+
+body {
+    text-align: center;
+}
+
+
+table {
+    width: 80%; 
+    margin: 20px auto; 
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #D46A6A;
+}
+    
