@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Favorite Songs</h1>
+    <form>
+        <label for="txtTitle">Title:</label>
+        <br>
+        <input type="text" name="txtTitle" id="txtTitle">
+        <br><br>
+        <label for="txtSinger">Singer:</label>
+        <br>
+        <input type="text" name="txtSinger" id="txtSinger">
+        <br><br>
+        <label for="txtMood">Mood:</label>
+        <br>
+        <input type="text" name="txtMood" id="txtMood">
+        <br><br>
+        
+        <input type="button" id="btnSubmit" name="btn" value="Add Song">
+    </form>
+    <br>
+    <table id="songTable">
+        <thead>
+            <tr>
+                <th>Song Title</th>
+                <th>Singer</th>
+                <th>Mood</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    <div id="song"></div>
+</body>
+</html>
